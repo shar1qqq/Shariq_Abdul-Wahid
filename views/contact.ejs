@@ -1,0 +1,79 @@
+<%- include('./partials/header.ejs') %>
+<%- include('./partials/main_nav.ejs') %>
+
+<div class="page-hero">
+  <div style="max-width:700px;margin:0 auto;">
+    <h1>Contact</h1>
+    <p>Open to internships, collaborations, and conversations.</p>
+  </div>
+</div>
+
+<section class="section section-white">
+  <div class="wrap">
+    <div class="contact-grid">
+
+      <div class="fade-up">
+        <h2>Let's connect</h2>
+        <p>I'm currently looking for internship opportunities in networking and IT security. If you have something in mind or just want to chat, reach out through any of the options below.</p>
+        <div class="contact-methods">
+          <div class="cm">
+            <div class="cm-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <span class="cm-label">Email</span>
+              <a href="mailto:shariq.abdulwahid@gmail.com">shariq.abdulwahid@gmail.com</a>
+            </div>
+          </div>
+          <div class="cm">
+            <div class="cm-icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <span class="cm-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/shariq-abdul-wahid-308096195" target="_blank">shariq-abdul-wahid</a>
+            </div>
+          </div>
+          <div class="cm">
+            <div class="cm-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <span class="cm-label">GitHub</span>
+              <a href="https://github.com/shar1qqq" target="_blank">shar1qqq</a>
+            </div>
+          </div>
+          <div class="cm">
+            <div class="cm-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <span class="cm-label">Location</span>
+              <span>Toronto, ON</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fade-up" style="transition-delay:.1s">
+        <form class="cform" id="contactForm">
+          <div class="fg">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+          </div>
+          <div class="fg">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="fg">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Internship opportunity" />
+          </div>
+          <div class="fg">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me what's on your mind..." required></textarea>
+          </div>
+          <button type="submit" class="btn-blue" style="width:100%">
+            Send Message &nbsp;<i class="fas fa-paper-plane"></i>
+          </button>
+          <p class="form-note">* Reach out directly via email or LinkedIn for the fastest response.</p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<%- include('./partials/footer.ejs') %>

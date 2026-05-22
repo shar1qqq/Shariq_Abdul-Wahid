@@ -1,0 +1,100 @@
+<%- include('./partials/header.ejs') %>
+<%- include('./partials/main_nav.ejs') %>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+
+    <div class="hero-text">
+      <p class="hero-eyebrow">Hey, I'm</p>
+      <h1 class="hero-name">Shariq<br>Abdul-Wahid</h1>
+      <p class="hero-role">Networking &amp; IT Security Student</p>
+      <p class="hero-desc">
+        I build secure networks, develop applications, and care about how technology actually works.
+        Currently studying at Ontario Tech University and looking for internship opportunities.
+      </p>
+      <div class="hero-btns">
+        <a href="/projects" class="btn-blue">View My Work</a>
+        <a href="/contactme" class="btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-meta">
+        <span><i class="fas fa-map-marker-alt"></i> Toronto, ON</span>
+        <span><i class="fas fa-envelope"></i> shariq.abdulwahid@gmail.com</span>
+        <span><i class="fas fa-graduation-cap"></i> Ontario Tech University</span>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-photo-wrap">
+        <img src="/images/ME.jpg" alt="Shariq Abdul-Wahid" class="hero-photo" />
+      </div>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">3rd</span>
+          <span class="stat-label">Year Standing</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">CCNA</span>
+          <span class="stat-label">In Progress</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- QUICK LINKS -->
+<section class="section section-white">
+  <div class="wrap">
+    <div class="ql-grid">
+
+      <a href="/about" class="ql-card fade-up">
+        <div class="ql-icon"><i class="fas fa-user"></i></div>
+        <h3>About Me</h3>
+        <p>My background, experience, education, and what drives me in tech.</p>
+        <span class="ql-arrow">&#8594;</span>
+      </a>
+
+      <a href="/projects" class="ql-card fade-up" style="transition-delay:.1s">
+        <div class="ql-icon"><i class="fas fa-code"></i></div>
+        <h3>Projects</h3>
+        <p>Networking, Python, web development, and more.</p>
+        <span class="ql-arrow">&#8594;</span>
+      </a>
+
+      <a href="/contactme" class="ql-card fade-up" style="transition-delay:.2s">
+        <div class="ql-icon"><i class="fas fa-paper-plane"></i></div>
+        <h3>Contact</h3>
+        <p>Internships, collaborations, or just a conversation.</p>
+        <span class="ql-arrow">&#8594;</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED PROJECT -->
+<section class="section section-bg">
+  <div class="wrap">
+    <h2 class="section-title">Featured Project</h2>
+    <div class="featured-wrap fade-up">
+      <div class="fp-icon"><i class="fas fa-network-wired"></i></div>
+      <div class="fp-body">
+        <span class="fp-badge">Latest</span>
+        <h3>Advanced Networking II Case Study</h3>
+        <p>Designed and deployed a multi-site LAN/WAN infrastructure across Toronto, Ottawa, and Oshawa using MPLS, DMVPN Phase 3, IPSec, EtherChannel, Spanning Tree, and EIGRP Named Mode in Cisco Packet Tracer.</p>
+        <div class="fp-tags">
+          <span>Cisco Packet Tracer</span><span>MPLS</span><span>DMVPN</span>
+          <span>EIGRP</span><span>IPSec</span><span>SecureCRT</span>
+        </div>
+      </div>
+      <a href="/projects" class="fp-link">All projects &#8594;</a>
+    </div>
+  </div>
+</section>
+
+<%- include('./partials/footer.ejs') %>

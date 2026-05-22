@@ -1,0 +1,13 @@
+<%- include('./partials/header.ejs') %>
+<%- include('./partials/main_nav.ejs') %>
+
+<section class="section section-white" style="text-align:center;min-height:60vh;display:flex;align-items:center;">
+  <div class="wrap">
+    <h1 style="font-size:5rem;font-weight:800;color:#1a6bb5;font-family:'Syne',sans-serif;"><%= error.status || 500 %></h1>
+    <h2 style="margin-bottom:1rem;"><%= message %></h2>
+    <p style="color:#3a5270;margin-bottom:2rem;">Something went wrong. Head back to the home page.</p>
+    <a href="/home" class="btn-blue">Go Home</a>
+  </div>
+</section>
+
+<%- include('./partials/footer.ejs') %>

@@ -1,0 +1,75 @@
+<%- include('./partials/header.ejs') %>
+<%- include('./partials/main_nav.ejs') %>
+
+<div class="page-hero">
+  <div style="max-width:700px;margin:0 auto;">
+    <h1>Projects</h1>
+    <p>A mix of networking, development, and everything in between.</p>
+  </div>
+</div>
+
+<section class="section section-white">
+  <div class="wrap">
+    <div class="projects-grid">
+
+      <div class="project-card featured fade-up">
+        <div class="project-top">
+          <div class="project-icon"><i class="fas fa-network-wired"></i></div>
+          <span class="project-badge">Latest</span>
+        </div>
+        <h3>Advanced Networking II Case Study</h3>
+        <p class="project-date"><i class="far fa-calendar"></i> April 2026</p>
+        <p>Designed and deployed a multi-site LAN/WAN infrastructure across Toronto, Ottawa, and Oshawa. Configured MPLS WAN, DMVPN Phase 3 with IPSec (AES-256, SHA-512), VTPv3, PAgP/LACP EtherChannels, Spanning Tree, and HSRPv2. Verified connectivity via TCL scripting and NHRP/IPSec SA validation.</p>
+        <div class="project-tags">
+          <span>Cisco Packet Tracer</span><span>MPLS</span><span>DMVPN</span>
+          <span>EIGRP</span><span>IPSec</span><span>SecureCRT</span>
+        </div>
+      </div>
+
+      <div class="project-card fade-up" style="transition-delay:.1s">
+        <div class="project-top">
+          <div class="project-icon"><i class="fas fa-globe"></i></div>
+        </div>
+        <h3>Beliciousweets Home Bakery Website</h3>
+        <p class="project-date"><i class="far fa-calendar"></i> January 2026 - Present</p>
+        <p>Developed a responsive multi-page website for a home bakery client. Built dynamic product listings using Angular components and data binding, and applied UI/UX principles for a clean browsing experience across devices.</p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Angular</span>
+        </div>
+      </div>
+
+      <div class="project-card fade-up" style="transition-delay:.15s">
+        <div class="project-top">
+          <div class="project-icon"><i class="fab fa-python"></i></div>
+        </div>
+        <h3>Student Grading Calculator</h3>
+        <p class="project-date"><i class="far fa-calendar"></i> April 2025</p>
+        <p>OOP-based grade management system with GPA calculation and data visualization. Features a Tkinter GUI for record management and CSV file support for persistent data storage across sessions.</p>
+        <div class="project-tags">
+          <span>Python</span><span>Tkinter</span><span>OOP</span><span>Matplotlib</span><span>CSV</span>
+        </div>
+        <a href="https://github.com/shar1qqq/student-grading-system" target="_blank" class="project-link">
+          <i class="fab fa-github"></i> View on GitHub
+        </a>
+      </div>
+
+      <div class="project-card fade-up" style="transition-delay:.2s">
+        <div class="project-top">
+          <div class="project-icon"><i class="fas fa-briefcase"></i></div>
+        </div>
+        <h3>Personal Portfolio</h3>
+        <p class="project-date"><i class="far fa-calendar"></i> January 2026 – Present</p>
+        <p>This site. Built with Node.js, Express, and EJS templating. Modular partial-based layout, custom CSS design, and Bootstrap for responsiveness.</p>
+        <div class="project-tags">
+          <span>Node.js</span><span>Express</span><span>EJS</span><span>Bootstrap</span>
+        </div>
+        <a href="https://github.com/shar1qqq" target="_blank" class="project-link">
+          <i class="fab fa-github"></i> View on GitHub
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<%- include('./partials/footer.ejs') %>
