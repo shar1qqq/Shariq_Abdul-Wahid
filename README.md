@@ -2,7 +2,7 @@
 
 A personal portfolio website built with **Node.js**, **Express**, and **EJS** templating. Features a clean, responsive design with custom CSS, scroll animations, and a multi-page layout.
 
-🌐 **Live Site:** ADD
+🌐 **Live Site:** https://shariq-abdul-wahid.onrender.com/
 
 ---
 
